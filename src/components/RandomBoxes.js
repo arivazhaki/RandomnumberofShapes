@@ -2,7 +2,7 @@
 /* eslint-disable max-lines-per-function */
 
 import React from 'react';
-import SelectBoxnew from './selectBoxNew';
+import SelectBoxNew from './SelectBoxNew';
 
 const RandomBoxes = (context) => {
 	const {
@@ -21,7 +21,7 @@ const RandomBoxes = (context) => {
 				key={ i }
 				style={ { ...shapeStyles[shape] } }
 			                             />) }
-			<SelectBoxnew { ...context }/>
+			<SelectBoxNew { ...context }/>
 		</div>
 	);
 };

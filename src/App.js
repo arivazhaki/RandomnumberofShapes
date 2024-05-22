@@ -1,6 +1,5 @@
 import { React } from 'react';
 import './App.scss';
-import Cake from './components/Cake';
 import AutoBoxes from './components/AutoBoxes';
 import RandomBoxes from './components/RandomBoxes';
 import BoxRotations from './components/BoxRotations';
@@ -21,7 +20,6 @@ const App = (context) =>
 		<div className="strawberryLeft"/>
 		<div className="strawberryRight"/>
 		<div className="seed"/>
-		<Cake/>
 	</div>;
 
 export default App;
