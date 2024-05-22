@@ -5,3 +5,102 @@
 		font-weight: bold;
 	}
 }
+.boxParentChild3{
+	width: 40vw;
+	height:30vh;
+	background-color:green;
+	position: relative;
+	border-radius: 5vh;
+	transform-origin : center;
+	margin: 10% ;
+}
+.boxParentChild4{
+	width: 30vw;
+	height: 20vh;
+	background-color:aqua;
+	position: absolute;
+	border-radius: 5vh;
+	right: 55%;
+	transform-origin: right; 
+	margin: auto;
+    }
+	.boxParentChild5{
+		width: 20vw;
+		height: 20vh;
+		background-color:blueviolet;
+		position: absolute;
+		border-radius: 5vh;
+		right: 60%;
+		bottom: 3%;
+		margin:auto;
+		}
+		.candle {
+			width: 35px;
+			height: 150px;
+			background-color: red;
+			border-radius: 10px;
+			position: absolute;
+			left:29%;
+			bottom: 10%;
+			margin: 100px auto;
+			}
+
+			.wick {
+				width: 5px;
+				height: 50px;
+				background-color: #333;
+				border-radius: 2px;
+				position: absolute;
+				top: 60%;
+				left: 30%;
+				transform: translateX(-50%);
+			}
+			.oval {
+				width: 20px;
+				height: 70px;
+				background:orange;
+				border-radius: 50%;
+				position:absolute;
+				top:57%;
+				left: 30%;
+				transform: translateX(-50%);
+			  }
+			  .strawberryRight {
+				position: absolute;
+				border-radius: 62% 54% 24% 70% / 68% 64% 20% 46%;
+				border: 2px solid black;
+				width: 50px;
+				height: 50px;
+				background: red;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				left:35%;
+			bottom: 12%;
+			margin: 100px auto;
+			 }
+			 .strawberryLeft {
+				position: absolute;
+				border-radius: 62% 54% 24% 70% / 68% 64% 20% 46%;
+				border: 2px solid black;
+				width: 50px;
+				height: 50px;
+				background: red;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				left:22%;
+			bottom: 12%;
+			margin: 100px auto;
+			 }
+			  .seed {
+				position:absolute;
+				width: 4px;
+				height: 4px;
+				background: yellow;
+				margin: 4px 5px;
+				border-radius: 0% 100% 19% 80% / 0% 77% 21% 100%;
+			  }	
+			  
+
+		
